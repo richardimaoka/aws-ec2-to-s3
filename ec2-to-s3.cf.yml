@@ -23,7 +23,6 @@ Resources:
       Path: "/"
       Roles:
       - !Ref RoleSSM
-      InstanceProfileName: InstanceProfileSSM
   # VPC settings for the sole EC2 instance
   VPC:
     Type: 'AWS::EC2::VPC'
@@ -81,7 +80,8 @@ Resources:
       # https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-create-keypair.html
       KeyName: "demo-key-pair"
       # To allow running commands via SSM
-      IamInstanceProfile: InstanceProfileSSM
+      IamInstanceProfile: !Ref InstanceProfileSSM
+      AvailabilityZone: ap-northeast-1a
       NetworkInterfaces:
         - AssociatePublicIpAddress: true
           DeviceIndex: "0"
