@@ -1,5 +1,7 @@
+#!/bin/bash
+
 # command to create a file to copy
-# for the purpose of the demo this gen-text is super simple
+# for the purpose of the demo, this gen-text is super simple
 ./gen-text.sh
 
 # On Amazon Linux, AWS CLI is already installed

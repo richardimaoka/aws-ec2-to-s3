@@ -1,3 +1,5 @@
+#!/bin/bash
+
 aws cloudformation ....
 
 # See if the EC2 instance is ready
