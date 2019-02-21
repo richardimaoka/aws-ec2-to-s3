@@ -11,6 +11,8 @@ This demo is a barebone to help you crate such a process pipeline, so that you c
 ### Pre-requisite
 
 - Install AWS CLI, and configure it with an API key/secret having AWS Admin access
+- (Create an EC2 key-pair in advance for SSH access, as [Cloudformation doesn't create key pairs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-create-keypair.html) )
+  - (Yes, the whole purpose of this demo is build a processing pipeline not using SSH, but in case of troubleshooting, you would still want SSH)
 
 ### Then, just run this
 
