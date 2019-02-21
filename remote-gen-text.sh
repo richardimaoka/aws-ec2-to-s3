@@ -1,0 +1,1 @@
+echo "some results" > results.txt
