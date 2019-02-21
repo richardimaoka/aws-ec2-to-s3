@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Any subsequent(*) commands which fail will cause the shell script to exit immediately
+set -e
+
 # Create the Cloudformation stack from the local template `ec2-to-s3.cf.yml`
 aws cloudformation create-stack \
   --stack-name aws-ec2-to-s3 \
@@ -25,12 +28,12 @@ INSTANCE_IDS=$(aws ec2 describe-instances --filter "Name=tag:aws:cloudformation:
 INSTANCE_IDS=$($INSTANCE_IDS | paste -sd " ")
 
 # Make sure all the EC2 instances in the Cloudformation stack are up and running
-echo $INSTANCE_IDS
+echo "Waiting until the following EC2 instances are OK: $INSTANCE_IDS"
 aws ec2 wait instance-status-ok --instance-ids $INSTANCE_IDS
 
 # Remote command to generate some results and copy the result file from EC2 to S3
 aws ssm send-command \
   --instance-ids $INSTANCE_IDS \
-  --document-name "AWS-RunPowerShellScript" \
+  --document-name "AWS-RunShellScript" \
   --parameters commands=["/home/ec2-user/aws-ec2-to-s3/remote-ec2-to-s3.sh"]
 
