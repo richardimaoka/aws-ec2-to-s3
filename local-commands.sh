@@ -17,7 +17,7 @@ echo "Waiting until the Cloudformation stack is CREATE_COMPLETE"
 aws cloudformation wait stack-create-complete --stack-name aws-ec2-to-s3
 
 # Get list of EC2 instance IDs
-INSTANCE_IDS=$(aws ec2 describe-instances --filter "Name=tag:aws:cloudformation:stack-name,Values=aws-ec2-to-s3" --output text --query "Reservations[*].Instances[*].InstanceId")
+INSTANCE_IDS=$(aws ec2 describe-instances --filters "Name=tag:aws:cloudformation:stack-name,Values=aws-ec2-to-s3" "Name=instance-state-name,Values=running" --output text --query "Reservations[*].Instances[*].InstanceId")
 # The above result is flattened array in multi-line output 
 #   i-0b852411111111111
 #   i-0b852422222222222
