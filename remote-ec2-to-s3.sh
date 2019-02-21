@@ -2,6 +2,7 @@
 
 # command to create a file to copy
 # for the purpose of the demo, this remote-gen-text.sh is super simple
+cd "$(dirname "$0")"
 ./remote-gen-text.sh
 
 # On Amazon Linux, AWS CLI is already installed

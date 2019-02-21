@@ -1,0 +1,768 @@
+{
+  "Reservations": [
+      {
+          "Groups": [],
+          "Instances": [
+              {
+                  "AmiLaunchIndex": 0,
+                  "ImageId": "ami-0d7ed3ddb85b521a6",
+                  "InstanceId": "i-0b8524d064d993780",
+                  "InstanceType": "t2.micro",
+                  "KeyName": "demo-key-pair",
+                  "LaunchTime": "2019-02-21T13:47:40.000Z",
+                  "Monitoring": {
+                      "State": "disabled"
+                  },
+                  "Placement": {
+                      "AvailabilityZone": "ap-northeast-1a",
+                      "GroupName": "",
+                      "Tenancy": "default"
+                  },
+                  "PrivateDnsName": "ip-10-0-0-111.ap-northeast-1.compute.internal",
+                  "PrivateIpAddress": "10.0.0.111",
+                  "ProductCodes": [],
+                  "PublicDnsName": "",
+                  "PublicIpAddress": "13.231.107.46",
+                  "State": {
+                      "Code": 16,
+                      "Name": "running"
+                  },
+                  "StateTransitionReason": "",
+                  "SubnetId": "subnet-0322020f0d3a11ffc",
+                  "VpcId": "vpc-0b9703f8ea66722a5",
+                  "Architecture": "x86_64",
+                  "BlockDeviceMappings": [
+                      {
+                          "DeviceName": "/dev/xvda",
+                          "Ebs": {
+                              "AttachTime": "2019-02-21T13:47:41.000Z",
+                              "DeleteOnTermination": true,
+                              "Status": "attached",
+                              "VolumeId": "vol-0bc1f1f4c9a459079"
+                          }
+                      }
+                  ],
+                  "ClientToken": "aws-e-EC2In-GEQ8WTESWHB8",
+                  "EbsOptimized": false,
+                  "EnaSupport": true,
+                  "Hypervisor": "xen",
+                  "IamInstanceProfile": {
+                      "Arn": "arn:aws:iam::795483015259:instance-profile/aws-ec2-to-s3-InstanceProfileSSM-18LH8GIXSDZ3D",
+                      "Id": "AIPAJTRDE3ZIM2ZWF3TWU"
+                  },
+                  "NetworkInterfaces": [
+                      {
+                          "Association": {
+                              "IpOwnerId": "amazon",
+                              "PublicDnsName": "",
+                              "PublicIp": "13.231.107.46"
+                          },
+                          "Attachment": {
+                              "AttachTime": "2019-02-21T13:47:40.000Z",
+                              "AttachmentId": "eni-attach-03bd5f0cf1b827ffc",
+                              "DeleteOnTermination": true,
+                              "DeviceIndex": 0,
+                              "Status": "attached"
+                          },
+                          "Description": "",
+                          "Groups": [
+                              {
+                                  "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                                  "GroupId": "sg-095da7b39aa3fdc13"
+                              }
+                          ],
+                          "Ipv6Addresses": [],
+                          "MacAddress": "06:94:c5:9b:d1:b0",
+                          "NetworkInterfaceId": "eni-0429207b1bfd5b4b2",
+                          "OwnerId": "795483015259",
+                          "PrivateIpAddress": "10.0.0.111",
+                          "PrivateIpAddresses": [
+                              {
+                                  "Association": {
+                                      "IpOwnerId": "amazon",
+                                      "PublicDnsName": "",
+                                      "PublicIp": "13.231.107.46"
+                                  },
+                                  "Primary": true,
+                                  "PrivateIpAddress": "10.0.0.111"
+                              }
+                          ],
+                          "SourceDestCheck": true,
+                          "Status": "in-use",
+                          "SubnetId": "subnet-0322020f0d3a11ffc",
+                          "VpcId": "vpc-0b9703f8ea66722a5"
+                      }
+                  ],
+                  "RootDeviceName": "/dev/xvda",
+                  "RootDeviceType": "ebs",
+                  "SecurityGroups": [
+                      {
+                          "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                          "GroupId": "sg-095da7b39aa3fdc13"
+                      }
+                  ],
+                  "SourceDestCheck": true,
+                  "Tags": [
+                      {
+                          "Key": "aws:cloudformation:stack-name",
+                          "Value": "aws-ec2-to-s3"
+                      },
+                      {
+                          "Key": "aws:cloudformation:logical-id",
+                          "Value": "EC2Instance"
+                      },
+                      {
+                          "Key": "aws:cloudformation:stack-id",
+                          "Value": "arn:aws:cloudformation:ap-northeast-1:795483015259:stack/aws-ec2-to-s3/ea7f8bb0-35de-11e9-81de-0637bd8af9a0"
+                      }
+                  ],
+                  "VirtualizationType": "hvm",
+                  "CpuOptions": {
+                      "CoreCount": 1,
+                      "ThreadsPerCore": 1
+                  },
+                  "HibernationOptions": {
+                      "Configured": false
+                  }
+              },
+              {
+                  "AmiLaunchIndex": 0,
+                  "ImageId": "ami-0d7ed3ddb85b521a6",
+                  "InstanceId": "i-0b8524d064d993780",
+                  "InstanceType": "t2.micro",
+                  "KeyName": "demo-key-pair",
+                  "LaunchTime": "2019-02-21T13:47:40.000Z",
+                  "Monitoring": {
+                      "State": "disabled"
+                  },
+                  "Placement": {
+                      "AvailabilityZone": "ap-northeast-1a",
+                      "GroupName": "",
+                      "Tenancy": "default"
+                  },
+                  "PrivateDnsName": "ip-10-0-0-111.ap-northeast-1.compute.internal",
+                  "PrivateIpAddress": "10.0.0.111",
+                  "ProductCodes": [],
+                  "PublicDnsName": "",
+                  "PublicIpAddress": "13.231.107.46",
+                  "State": {
+                      "Code": 16,
+                      "Name": "running"
+                  },
+                  "StateTransitionReason": "",
+                  "SubnetId": "subnet-0322020f0d3a11ffc",
+                  "VpcId": "vpc-0b9703f8ea66722a5",
+                  "Architecture": "x86_64",
+                  "BlockDeviceMappings": [
+                      {
+                          "DeviceName": "/dev/xvda",
+                          "Ebs": {
+                              "AttachTime": "2019-02-21T13:47:41.000Z",
+                              "DeleteOnTermination": true,
+                              "Status": "attached",
+                              "VolumeId": "vol-0bc1f1f4c9a459079"
+                          }
+                      }
+                  ],
+                  "ClientToken": "aws-e-EC2In-GEQ8WTESWHB8",
+                  "EbsOptimized": false,
+                  "EnaSupport": true,
+                  "Hypervisor": "xen",
+                  "IamInstanceProfile": {
+                      "Arn": "arn:aws:iam::795483015259:instance-profile/aws-ec2-to-s3-InstanceProfileSSM-18LH8GIXSDZ3D",
+                      "Id": "AIPAJTRDE3ZIM2ZWF3TWU"
+                  },
+                  "NetworkInterfaces": [
+                      {
+                          "Association": {
+                              "IpOwnerId": "amazon",
+                              "PublicDnsName": "",
+                              "PublicIp": "13.231.107.46"
+                          },
+                          "Attachment": {
+                              "AttachTime": "2019-02-21T13:47:40.000Z",
+                              "AttachmentId": "eni-attach-03bd5f0cf1b827ffc",
+                              "DeleteOnTermination": true,
+                              "DeviceIndex": 0,
+                              "Status": "attached"
+                          },
+                          "Description": "",
+                          "Groups": [
+                              {
+                                  "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                                  "GroupId": "sg-095da7b39aa3fdc13"
+                              }
+                          ],
+                          "Ipv6Addresses": [],
+                          "MacAddress": "06:94:c5:9b:d1:b0",
+                          "NetworkInterfaceId": "eni-0429207b1bfd5b4b2",
+                          "OwnerId": "795483015259",
+                          "PrivateIpAddress": "10.0.0.111",
+                          "PrivateIpAddresses": [
+                              {
+                                  "Association": {
+                                      "IpOwnerId": "amazon",
+                                      "PublicDnsName": "",
+                                      "PublicIp": "13.231.107.46"
+                                  },
+                                  "Primary": true,
+                                  "PrivateIpAddress": "10.0.0.111"
+                              }
+                          ],
+                          "SourceDestCheck": true,
+                          "Status": "in-use",
+                          "SubnetId": "subnet-0322020f0d3a11ffc",
+                          "VpcId": "vpc-0b9703f8ea66722a5"
+                      }
+                  ],
+                  "RootDeviceName": "/dev/xvda",
+                  "RootDeviceType": "ebs",
+                  "SecurityGroups": [
+                      {
+                          "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                          "GroupId": "sg-095da7b39aa3fdc13"
+                      }
+                  ],
+                  "SourceDestCheck": true,
+                  "Tags": [
+                      {
+                          "Key": "aws:cloudformation:stack-name",
+                          "Value": "aws-ec2-to-s3"
+                      },
+                      {
+                          "Key": "aws:cloudformation:logical-id",
+                          "Value": "EC2Instance"
+                      },
+                      {
+                          "Key": "aws:cloudformation:stack-id",
+                          "Value": "arn:aws:cloudformation:ap-northeast-1:795483015259:stack/aws-ec2-to-s3/ea7f8bb0-35de-11e9-81de-0637bd8af9a0"
+                      }
+                  ],
+                  "VirtualizationType": "hvm",
+                  "CpuOptions": {
+                      "CoreCount": 1,
+                      "ThreadsPerCore": 1
+                  },
+                  "HibernationOptions": {
+                      "Configured": false
+                  }
+              },
+              {
+                "AmiLaunchIndex": 0,
+                "ImageId": "ami-0d7ed3ddb85b521a6",
+                "InstanceId": "i-0b8524d064d993780",
+                "InstanceType": "t2.micro",
+                "KeyName": "demo-key-pair",
+                "LaunchTime": "2019-02-21T13:47:40.000Z",
+                "Monitoring": {
+                    "State": "disabled"
+                },
+                "Placement": {
+                    "AvailabilityZone": "ap-northeast-1a",
+                    "GroupName": "",
+                    "Tenancy": "default"
+                },
+                "PrivateDnsName": "ip-10-0-0-111.ap-northeast-1.compute.internal",
+                "PrivateIpAddress": "10.0.0.111",
+                "ProductCodes": [],
+                "PublicDnsName": "",
+                "PublicIpAddress": "13.231.107.46",
+                "State": {
+                    "Code": 16,
+                    "Name": "running"
+                },
+                "StateTransitionReason": "",
+                "SubnetId": "subnet-0322020f0d3a11ffc",
+                "VpcId": "vpc-0b9703f8ea66722a5",
+                "Architecture": "x86_64",
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvda",
+                        "Ebs": {
+                            "AttachTime": "2019-02-21T13:47:41.000Z",
+                            "DeleteOnTermination": true,
+                            "Status": "attached",
+                            "VolumeId": "vol-0bc1f1f4c9a459079"
+                        }
+                    }
+                ],
+                "ClientToken": "aws-e-EC2In-GEQ8WTESWHB8",
+                "EbsOptimized": false,
+                "EnaSupport": true,
+                "Hypervisor": "xen",
+                "IamInstanceProfile": {
+                    "Arn": "arn:aws:iam::795483015259:instance-profile/aws-ec2-to-s3-InstanceProfileSSM-18LH8GIXSDZ3D",
+                    "Id": "AIPAJTRDE3ZIM2ZWF3TWU"
+                },
+                "NetworkInterfaces": [
+                    {
+                        "Association": {
+                            "IpOwnerId": "amazon",
+                            "PublicDnsName": "",
+                            "PublicIp": "13.231.107.46"
+                        },
+                        "Attachment": {
+                            "AttachTime": "2019-02-21T13:47:40.000Z",
+                            "AttachmentId": "eni-attach-03bd5f0cf1b827ffc",
+                            "DeleteOnTermination": true,
+                            "DeviceIndex": 0,
+                            "Status": "attached"
+                        },
+                        "Description": "",
+                        "Groups": [
+                            {
+                                "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                                "GroupId": "sg-095da7b39aa3fdc13"
+                            }
+                        ],
+                        "Ipv6Addresses": [],
+                        "MacAddress": "06:94:c5:9b:d1:b0",
+                        "NetworkInterfaceId": "eni-0429207b1bfd5b4b2",
+                        "OwnerId": "795483015259",
+                        "PrivateIpAddress": "10.0.0.111",
+                        "PrivateIpAddresses": [
+                            {
+                                "Association": {
+                                    "IpOwnerId": "amazon",
+                                    "PublicDnsName": "",
+                                    "PublicIp": "13.231.107.46"
+                                },
+                                "Primary": true,
+                                "PrivateIpAddress": "10.0.0.111"
+                            }
+                        ],
+                        "SourceDestCheck": true,
+                        "Status": "in-use",
+                        "SubnetId": "subnet-0322020f0d3a11ffc",
+                        "VpcId": "vpc-0b9703f8ea66722a5"
+                    }
+                ],
+                "RootDeviceName": "/dev/xvda",
+                "RootDeviceType": "ebs",
+                "SecurityGroups": [
+                    {
+                        "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                        "GroupId": "sg-095da7b39aa3fdc13"
+                    }
+                ],
+                "SourceDestCheck": true,
+                "Tags": [
+                    {
+                        "Key": "aws:cloudformation:stack-name",
+                        "Value": "aws-ec2-to-s3"
+                    },
+                    {
+                        "Key": "aws:cloudformation:logical-id",
+                        "Value": "EC2Instance"
+                    },
+                    {
+                        "Key": "aws:cloudformation:stack-id",
+                        "Value": "arn:aws:cloudformation:ap-northeast-1:795483015259:stack/aws-ec2-to-s3/ea7f8bb0-35de-11e9-81de-0637bd8af9a0"
+                    }
+                ],
+                "VirtualizationType": "hvm",
+                "CpuOptions": {
+                    "CoreCount": 1,
+                    "ThreadsPerCore": 1
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                }
+            }
+          ],
+          "OwnerId": "795483015259",
+          "RequesterId": "331753876576",
+          "ReservationId": "r-0eaca1a59af3b6fc4"
+      },
+      {
+        "Groups": [],
+        "Instances": [
+            {
+                "AmiLaunchIndex": 0,
+                "ImageId": "ami-0d7ed3ddb85b521a6",
+                "InstanceId": "i-0b8524d064d993780",
+                "InstanceType": "t2.micro",
+                "KeyName": "demo-key-pair",
+                "LaunchTime": "2019-02-21T13:47:40.000Z",
+                "Monitoring": {
+                    "State": "disabled"
+                },
+                "Placement": {
+                    "AvailabilityZone": "ap-northeast-1a",
+                    "GroupName": "",
+                    "Tenancy": "default"
+                },
+                "PrivateDnsName": "ip-10-0-0-111.ap-northeast-1.compute.internal",
+                "PrivateIpAddress": "10.0.0.111",
+                "ProductCodes": [],
+                "PublicDnsName": "",
+                "PublicIpAddress": "13.231.107.46",
+                "State": {
+                    "Code": 16,
+                    "Name": "running"
+                },
+                "StateTransitionReason": "",
+                "SubnetId": "subnet-0322020f0d3a11ffc",
+                "VpcId": "vpc-0b9703f8ea66722a5",
+                "Architecture": "x86_64",
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvda",
+                        "Ebs": {
+                            "AttachTime": "2019-02-21T13:47:41.000Z",
+                            "DeleteOnTermination": true,
+                            "Status": "attached",
+                            "VolumeId": "vol-0bc1f1f4c9a459079"
+                        }
+                    }
+                ],
+                "ClientToken": "aws-e-EC2In-GEQ8WTESWHB8",
+                "EbsOptimized": false,
+                "EnaSupport": true,
+                "Hypervisor": "xen",
+                "IamInstanceProfile": {
+                    "Arn": "arn:aws:iam::795483015259:instance-profile/aws-ec2-to-s3-InstanceProfileSSM-18LH8GIXSDZ3D",
+                    "Id": "AIPAJTRDE3ZIM2ZWF3TWU"
+                },
+                "NetworkInterfaces": [
+                    {
+                        "Association": {
+                            "IpOwnerId": "amazon",
+                            "PublicDnsName": "",
+                            "PublicIp": "13.231.107.46"
+                        },
+                        "Attachment": {
+                            "AttachTime": "2019-02-21T13:47:40.000Z",
+                            "AttachmentId": "eni-attach-03bd5f0cf1b827ffc",
+                            "DeleteOnTermination": true,
+                            "DeviceIndex": 0,
+                            "Status": "attached"
+                        },
+                        "Description": "",
+                        "Groups": [
+                            {
+                                "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                                "GroupId": "sg-095da7b39aa3fdc13"
+                            }
+                        ],
+                        "Ipv6Addresses": [],
+                        "MacAddress": "06:94:c5:9b:d1:b0",
+                        "NetworkInterfaceId": "eni-0429207b1bfd5b4b2",
+                        "OwnerId": "795483015259",
+                        "PrivateIpAddress": "10.0.0.111",
+                        "PrivateIpAddresses": [
+                            {
+                                "Association": {
+                                    "IpOwnerId": "amazon",
+                                    "PublicDnsName": "",
+                                    "PublicIp": "13.231.107.46"
+                                },
+                                "Primary": true,
+                                "PrivateIpAddress": "10.0.0.111"
+                            }
+                        ],
+                        "SourceDestCheck": true,
+                        "Status": "in-use",
+                        "SubnetId": "subnet-0322020f0d3a11ffc",
+                        "VpcId": "vpc-0b9703f8ea66722a5"
+                    }
+                ],
+                "RootDeviceName": "/dev/xvda",
+                "RootDeviceType": "ebs",
+                "SecurityGroups": [
+                    {
+                        "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                        "GroupId": "sg-095da7b39aa3fdc13"
+                    }
+                ],
+                "SourceDestCheck": true,
+                "Tags": [
+                    {
+                        "Key": "aws:cloudformation:stack-name",
+                        "Value": "aws-ec2-to-s3"
+                    },
+                    {
+                        "Key": "aws:cloudformation:logical-id",
+                        "Value": "EC2Instance"
+                    },
+                    {
+                        "Key": "aws:cloudformation:stack-id",
+                        "Value": "arn:aws:cloudformation:ap-northeast-1:795483015259:stack/aws-ec2-to-s3/ea7f8bb0-35de-11e9-81de-0637bd8af9a0"
+                    }
+                ],
+                "VirtualizationType": "hvm",
+                "CpuOptions": {
+                    "CoreCount": 1,
+                    "ThreadsPerCore": 1
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                }
+            }
+        ],
+        "OwnerId": "795483015259",
+        "RequesterId": "331753876576",
+        "ReservationId": "r-0eaca1a59af3b6fc4"
+    },
+      {
+          "Groups": [],
+          "Instances": [
+              {
+                  "AmiLaunchIndex": 0,
+                  "ImageId": "ami-0d7ed3ddb85b521a6",
+                  "InstanceId": "i-0b8524d064d993780",
+                  "InstanceType": "t2.micro",
+                  "KeyName": "demo-key-pair",
+                  "LaunchTime": "2019-02-21T13:47:40.000Z",
+                  "Monitoring": {
+                      "State": "disabled"
+                  },
+                  "Placement": {
+                      "AvailabilityZone": "ap-northeast-1a",
+                      "GroupName": "",
+                      "Tenancy": "default"
+                  },
+                  "PrivateDnsName": "ip-10-0-0-111.ap-northeast-1.compute.internal",
+                  "PrivateIpAddress": "10.0.0.111",
+                  "ProductCodes": [],
+                  "PublicDnsName": "",
+                  "PublicIpAddress": "13.231.107.46",
+                  "State": {
+                      "Code": 16,
+                      "Name": "running"
+                  },
+                  "StateTransitionReason": "",
+                  "SubnetId": "subnet-0322020f0d3a11ffc",
+                  "VpcId": "vpc-0b9703f8ea66722a5",
+                  "Architecture": "x86_64",
+                  "BlockDeviceMappings": [
+                      {
+                          "DeviceName": "/dev/xvda",
+                          "Ebs": {
+                              "AttachTime": "2019-02-21T13:47:41.000Z",
+                              "DeleteOnTermination": true,
+                              "Status": "attached",
+                              "VolumeId": "vol-0bc1f1f4c9a459079"
+                          }
+                      }
+                  ],
+                  "ClientToken": "aws-e-EC2In-GEQ8WTESWHB8",
+                  "EbsOptimized": false,
+                  "EnaSupport": true,
+                  "Hypervisor": "xen",
+                  "IamInstanceProfile": {
+                      "Arn": "arn:aws:iam::795483015259:instance-profile/aws-ec2-to-s3-InstanceProfileSSM-18LH8GIXSDZ3D",
+                      "Id": "AIPAJTRDE3ZIM2ZWF3TWU"
+                  },
+                  "NetworkInterfaces": [
+                      {
+                          "Association": {
+                              "IpOwnerId": "amazon",
+                              "PublicDnsName": "",
+                              "PublicIp": "13.231.107.46"
+                          },
+                          "Attachment": {
+                              "AttachTime": "2019-02-21T13:47:40.000Z",
+                              "AttachmentId": "eni-attach-03bd5f0cf1b827ffc",
+                              "DeleteOnTermination": true,
+                              "DeviceIndex": 0,
+                              "Status": "attached"
+                          },
+                          "Description": "",
+                          "Groups": [
+                              {
+                                  "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                                  "GroupId": "sg-095da7b39aa3fdc13"
+                              }
+                          ],
+                          "Ipv6Addresses": [],
+                          "MacAddress": "06:94:c5:9b:d1:b0",
+                          "NetworkInterfaceId": "eni-0429207b1bfd5b4b2",
+                          "OwnerId": "795483015259",
+                          "PrivateIpAddress": "10.0.0.111",
+                          "PrivateIpAddresses": [
+                              {
+                                  "Association": {
+                                      "IpOwnerId": "amazon",
+                                      "PublicDnsName": "",
+                                      "PublicIp": "13.231.107.46"
+                                  },
+                                  "Primary": true,
+                                  "PrivateIpAddress": "10.0.0.111"
+                              }
+                          ],
+                          "SourceDestCheck": true,
+                          "Status": "in-use",
+                          "SubnetId": "subnet-0322020f0d3a11ffc",
+                          "VpcId": "vpc-0b9703f8ea66722a5"
+                      }
+                  ],
+                  "RootDeviceName": "/dev/xvda",
+                  "RootDeviceType": "ebs",
+                  "SecurityGroups": [
+                      {
+                          "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                          "GroupId": "sg-095da7b39aa3fdc13"
+                      }
+                  ],
+                  "SourceDestCheck": true,
+                  "Tags": [
+                      {
+                          "Key": "aws:cloudformation:stack-name",
+                          "Value": "aws-ec2-to-s3"
+                      },
+                      {
+                          "Key": "aws:cloudformation:logical-id",
+                          "Value": "EC2Instance"
+                      },
+                      {
+                          "Key": "aws:cloudformation:stack-id",
+                          "Value": "arn:aws:cloudformation:ap-northeast-1:795483015259:stack/aws-ec2-to-s3/ea7f8bb0-35de-11e9-81de-0637bd8af9a0"
+                      }
+                  ],
+                  "VirtualizationType": "hvm",
+                  "CpuOptions": {
+                      "CoreCount": 1,
+                      "ThreadsPerCore": 1
+                  },
+                  "HibernationOptions": {
+                      "Configured": false
+                  }
+              }
+          ],
+          "OwnerId": "795483015259",
+          "RequesterId": "331753876576",
+          "ReservationId": "r-0eaca1a59af3b6fc4"
+      },
+      {
+        "Groups": [],
+        "Instances": [
+            {
+                "AmiLaunchIndex": 0,
+                "ImageId": "ami-0d7ed3ddb85b521a6",
+                "InstanceId": "i-0b8524d064d993780",
+                "InstanceType": "t2.micro",
+                "KeyName": "demo-key-pair",
+                "LaunchTime": "2019-02-21T13:47:40.000Z",
+                "Monitoring": {
+                    "State": "disabled"
+                },
+                "Placement": {
+                    "AvailabilityZone": "ap-northeast-1a",
+                    "GroupName": "",
+                    "Tenancy": "default"
+                },
+                "PrivateDnsName": "ip-10-0-0-111.ap-northeast-1.compute.internal",
+                "PrivateIpAddress": "10.0.0.111",
+                "ProductCodes": [],
+                "PublicDnsName": "",
+                "PublicIpAddress": "13.231.107.46",
+                "State": {
+                    "Code": 16,
+                    "Name": "running"
+                },
+                "StateTransitionReason": "",
+                "SubnetId": "subnet-0322020f0d3a11ffc",
+                "VpcId": "vpc-0b9703f8ea66722a5",
+                "Architecture": "x86_64",
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvda",
+                        "Ebs": {
+                            "AttachTime": "2019-02-21T13:47:41.000Z",
+                            "DeleteOnTermination": true,
+                            "Status": "attached",
+                            "VolumeId": "vol-0bc1f1f4c9a459079"
+                        }
+                    }
+                ],
+                "ClientToken": "aws-e-EC2In-GEQ8WTESWHB8",
+                "EbsOptimized": false,
+                "EnaSupport": true,
+                "Hypervisor": "xen",
+                "IamInstanceProfile": {
+                    "Arn": "arn:aws:iam::795483015259:instance-profile/aws-ec2-to-s3-InstanceProfileSSM-18LH8GIXSDZ3D",
+                    "Id": "AIPAJTRDE3ZIM2ZWF3TWU"
+                },
+                "NetworkInterfaces": [
+                    {
+                        "Association": {
+                            "IpOwnerId": "amazon",
+                            "PublicDnsName": "",
+                            "PublicIp": "13.231.107.46"
+                        },
+                        "Attachment": {
+                            "AttachTime": "2019-02-21T13:47:40.000Z",
+                            "AttachmentId": "eni-attach-03bd5f0cf1b827ffc",
+                            "DeleteOnTermination": true,
+                            "DeviceIndex": 0,
+                            "Status": "attached"
+                        },
+                        "Description": "",
+                        "Groups": [
+                            {
+                                "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                                "GroupId": "sg-095da7b39aa3fdc13"
+                            }
+                        ],
+                        "Ipv6Addresses": [],
+                        "MacAddress": "06:94:c5:9b:d1:b0",
+                        "NetworkInterfaceId": "eni-0429207b1bfd5b4b2",
+                        "OwnerId": "795483015259",
+                        "PrivateIpAddress": "10.0.0.111",
+                        "PrivateIpAddresses": [
+                            {
+                                "Association": {
+                                    "IpOwnerId": "amazon",
+                                    "PublicDnsName": "",
+                                    "PublicIp": "13.231.107.46"
+                                },
+                                "Primary": true,
+                                "PrivateIpAddress": "10.0.0.111"
+                            }
+                        ],
+                        "SourceDestCheck": true,
+                        "Status": "in-use",
+                        "SubnetId": "subnet-0322020f0d3a11ffc",
+                        "VpcId": "vpc-0b9703f8ea66722a5"
+                    }
+                ],
+                "RootDeviceName": "/dev/xvda",
+                "RootDeviceType": "ebs",
+                "SecurityGroups": [
+                    {
+                        "GroupName": "aws-ec2-to-s3-SecurityGroup-12ZWZRVPLL33S",
+                        "GroupId": "sg-095da7b39aa3fdc13"
+                    }
+                ],
+                "SourceDestCheck": true,
+                "Tags": [
+                    {
+                        "Key": "aws:cloudformation:stack-name",
+                        "Value": "aws-ec2-to-s3"
+                    },
+                    {
+                        "Key": "aws:cloudformation:logical-id",
+                        "Value": "EC2Instance"
+                    },
+                    {
+                        "Key": "aws:cloudformation:stack-id",
+                        "Value": "arn:aws:cloudformation:ap-northeast-1:795483015259:stack/aws-ec2-to-s3/ea7f8bb0-35de-11e9-81de-0637bd8af9a0"
+                    }
+                ],
+                "VirtualizationType": "hvm",
+                "CpuOptions": {
+                    "CoreCount": 1,
+                    "ThreadsPerCore": 1
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                }
+            }
+        ],
+        "OwnerId": "795483015259",
+        "RequesterId": "331753876576",
+        "ReservationId": "r-0eaca1a59af3b6fc4"
+    }
+  ]
+}
