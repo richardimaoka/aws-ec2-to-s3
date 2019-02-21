@@ -1,7 +1,6 @@
 ## A demo to copy file from EC2 to S3
 
-When you execute an ad-hoc command on EC2, you might want to store the result file in S3.
-A typical example is to run performance tests and save results to a pre-created S3 bucket.
+When you execute an ad-hoc command on EC2, you might want to store the result file in S3. That could possibly allow query results by services like Amazon Athena later on. A typical example is to run performance tests and save results to a pre-created S3 bucket.
 
 This demo is a barebone to help you crate such a process pipeline, so that you can later add whatever operation, like ad-hoc performance testing, to create a result file to be saved to S3.
 
