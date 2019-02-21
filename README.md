@@ -35,4 +35,4 @@ https://console.aws.amazon.com/ec2/v2/home?#Commands:sort=CommandId
 
 Illustrated by [Cloudformation Designer](https://console.aws.amazon.com/cloudformation/designer/home):
 
-![](./EC2Instance-designer)
+![](./EC2Instance-designer.png)
